@@ -1,0 +1,8 @@
+to run from root directory:
+make
+./tools/gen-input 10000 in.dat
+./tssort <NUM-CORES> in.dat out.dat
+
+to view results:
+./tools/print-data out.dat
+
